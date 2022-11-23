@@ -1,17 +1,33 @@
 <!DOCTYPE HTML>
 <html>
     <head>
-        <title>First test</title>
+        <title>군 MBTI</title>
         <meta charset="utf-8">
-		<link rel="stylesheet" href="top.css">
+		<link rel="stylesheet" href="test.css">
+		<style>
+			.container {
+				display:grid;
+				grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+			}
+		</style>
     </head>
     <body>
-		<h1><a href="index.html">군적성 MBTI.Project</a></h1>
-        <h2>첫번째 질문</h2>
-        <p>
-            하늘에서 똥이 내린다면?
-        </p>
-        <a href="test2.html"><input type="button" value="음... 상상해본다."></a>
-        <a href="test2.html"><input type="button" value="그럴 일 없다."></a>
+		<div class="container">
+			<div class="header">
+				<h1><a href="index.html">군적성 MBTI.Project</a></h1>
+			</div>
+			<div class="sub">
+				<h2>첫번째 질문</h2>
+			</div>
+			<div class="para">
+				<p>기분 좋았던 이야기를 떠올려 주세요!</p>
+			</div>
+			<div class="butt1">
+				<a href="test2.html"><button>네! 좋아요.</button></a>
+			</div>
+			<div class="butt2">
+				<a href="test2.html"><button>아니오.</button></a>
+			</div>	
+		</div>
     </body>
 </html>
