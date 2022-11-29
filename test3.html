@@ -4,6 +4,7 @@
         <title>군 MBTI</title>
         <meta charset="utf-8">
 		<link rel="stylesheet" href="test.css">
+		<script src="calResult.js"></script>
 		<style>
 			.container {
 				display:grid;
@@ -14,10 +15,12 @@
     <body>
 		<div class="container">
 			<div class="header">
-				<h1><a href="index.html">군적성 MBTI.Project</a></h1>
+				<h1><a href="index.html">군보직 Aptitude Test</a></h1>
 			</div>
 			<div class="sub">
 				<h2>세번째 질문</h2>
+				<label for="file"></label>
+				<progress id="prog" max="100" value="50"> 70% </progress>
 			</div>
 			<div class="para">
 				<p>애니를 좋아하나요?</p>

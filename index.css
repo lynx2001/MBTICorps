@@ -15,7 +15,7 @@ a {
 img {
 	display: block;
 	margin: auto;
-	width:40%;
+	width:60%;
 	height:auto;
 }
 body {
@@ -40,7 +40,7 @@ button{
 	display: block;
 	margin: auto;
 	width: 40%;
-	height: 20%;
+	height: 40%;
 	background:#1AAB8A;
 	color:#fff;
 	border:none;
@@ -50,6 +50,7 @@ button{
 	cursor:pointer;
 	transition:800ms ease all;
 	outline:none;
+	font-size:3vmin;
 }
 button:hover{
   background:#fff;

@@ -4,20 +4,28 @@
         <title>군 MBTI</title>
         <meta charset="utf-8">
 		<link rel="stylesheet" href="test.css">
+		<script src="calResult.js"></script>
 		<style>
 			.container {
 				display:grid;
 				grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
 			}
 		</style>
+		<script>
+			function prog() {
+				document.getElementById( 'prog' ).value = "10";
+			}
+		</script>
     </head>
     <body>
 		<div class="container">
 			<div class="header">
-				<h1><a href="index.html">군적성 MBTI.Project</a></h1>
+				<h1><a href="index.html">군보직 Aptitude Test</a></h1>
 			</div>
 			<div class="sub">
 				<h2>첫번째 질문</h2>
+				<label for="file"></label>
+				<progress id="prog" max="100" value="0"> 70% </progress>
 			</div>
 			<div class="para">
 				<p>기분 좋았던 이야기를 떠올려 주세요!</p>
